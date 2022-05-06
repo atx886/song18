@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-file = './Spider/16.xlsx'
+file = './Spider/18.xlsx'
 max_a = load_workbook(file).active.max_row
 print(max_a)
 
